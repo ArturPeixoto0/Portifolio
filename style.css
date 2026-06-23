@@ -10,6 +10,18 @@ body {
     }
 
     .interface {
+        padding: 20px;
         max-width: 1280px;
+        width: 100%;
         margin: 0 auto;
+
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
     }
+
+    .menu-desktop ul { /*precisamos adicionar o ul para que alteremos a lista*/
+        padding: 0;
+        display: flex;
+        gap: 40px;
+    }   
