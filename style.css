@@ -21,7 +21,16 @@ body {
     }
 
     .menu-desktop ul { /*precisamos adicionar o ul para que alteremos a lista*/
+        list-style-type: none;
+
         padding: 0;
+        border: 20px solid aliceblue;
         display: flex;
         gap: 40px;
+        background-color: aliceblue;
+        
     }   
+
+    header {
+        background-color: darkblue;
+    }
