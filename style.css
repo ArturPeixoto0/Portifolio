@@ -4,7 +4,7 @@
     box-sizing: border-box;
     
 
-  font-family: "Bitcount Single", system-ui;
+
 }
 
 body {
@@ -32,6 +32,7 @@ body {
         gap: 40px;
         background-color: aliceblue;
         
+        font-family: "Bitcount Single", system-ui;
     }   
 
     header {
