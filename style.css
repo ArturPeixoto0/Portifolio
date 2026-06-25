@@ -42,6 +42,13 @@ header a{
     color: rgb(122, 122, 122);
     text-decoration: none;
     cursor: pointer;
+    display: inline-block; /*assim conseguimos meer no tamanho do escrito*/
+}
+
+header a:hover {
+   color: black;
+   transform: scale(1.1);
+    transition: .2s;
 }
 
 header .btn-contato button {
@@ -53,4 +60,11 @@ header .btn-contato button {
     border-radius: 40px;
     font-family: "Bitcount Single", system-ui;
     cursor: pointer;
+}
+
+header .btn-contato button:hover {
+
+ transform: scale(1.1);
+ box-shadow: 0px 0px 5px antiquewhite;
+ transition: .2s
 }
