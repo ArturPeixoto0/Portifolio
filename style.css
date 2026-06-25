@@ -8,33 +8,38 @@
 }
 
 body {
-        background-color: powderblue;
-        height: 100vh;
-    }
+    background-color: powderblue;
+    height: 100vh;
+}
 
-    .interface {
-        padding: 20px;
-        max-width: 1280px;
-        width: 100%;
-        margin: 0 auto;
+.interface {
+    padding: 20px;
+    max-width: 1280px;
+    width: 100%;
+    margin: 0 auto;
 
-        display: flex;
-        align-items: center;
-        justify-content: space-between;
-    }
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
 
-    .menu-desktop ul { /*precisamos adicionar o ul para que alteremos a lista*/
-        list-style-type: none;
+.menu-desktop ul { /*precisamos adicionar o ul para que alteremos a lista*/
+    list-style-type: none;
 
-        padding: 0;
-        border: 20px solid aliceblue;
-        display: flex;
-        gap: 40px;
-        background-color: aliceblue;
+    padding: 0;
+    border: 20px solid aliceblue;
+    display: flex;
+    gap: 40px;
+    background-color: aliceblue;
         
-        font-family: "Bitcount Single", system-ui;
-    }   
+    font-family: "Bitcount Single", system-ui;
+}   
 
-    header {
-        background-color: darkblue;
-    }
+header {
+    background-color: darkblue;
+}
+
+header a{
+    color: black;
+    text-decoration: none;
+}
