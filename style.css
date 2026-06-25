@@ -8,7 +8,7 @@
 }
 
 body {
-    background-color: powderblue;
+    background-color:  darkblue;;
     height: 100vh;
 }
 
@@ -28,6 +28,7 @@ body {
 
     padding: 0;
     border: 20px solid aliceblue;
+    border-radius: 40px;
     display: flex;
     gap: 40px;
     background-color: aliceblue;
@@ -35,11 +36,21 @@ body {
     font-family: "Bitcount Single", system-ui;
 }   
 
-header {
-    background-color: darkblue;
-}
+
 
 header a{
-    color: black;
+    color: rgb(92, 92, 92);
     text-decoration: none;
+    cursor: pointer;
+}
+
+header .btn-contato button {
+    padding: 20px 40px;
+    font-size: 15px;
+    font-weight: 700;
+    background-color: aliceblue;
+    border: 0;
+    border-radius: 40px;
+    font-family: "Bitcount Single", system-ui;
+    cursor: pointer;
 }
