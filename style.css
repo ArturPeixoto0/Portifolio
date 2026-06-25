@@ -64,7 +64,7 @@ header .btn-contato button {
 
 header .btn-contato button:hover {
 
- transform: scale(1.1);
+ transform: scale(1.05);
  box-shadow: 0px 0px 5px antiquewhite;
  transition: .2s
 }
