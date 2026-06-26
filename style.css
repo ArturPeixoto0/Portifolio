@@ -30,7 +30,7 @@ body {
     border: 20px solid rgb(240, 255, 210);
     border-radius: 40px;
     display: flex;
-    gap: 40px;
+    gap: 60px;
     background-color: rgb(240, 255, 210);
         
     font-family: "Bitcount Single", system-ui;
@@ -78,27 +78,26 @@ header .btn-contato button:hover {
     clip-path: circle(50%);
 }
 
-.Inicio{
+.Sobre-Mim{
 width: auto;
 height: auto;
 margin-left: 10%;
 margin-right: 10%;
+margin-bottom: 20%;
 
 border-radius:20px;
- padding: 50px 5%;
- display: flex;
- flex-direction: column;
- gap: 20px;
- background-color:rgb(240, 255, 210);
+padding: 50px 5%;
+display: flex;
+flex-direction: column;
+gap: 20px;
+background-color:rgb(240, 255, 210);
 }
 
-/* 
-.Inicio h1 { 
-    color: rgb(0, 34, 64);
-} 
-*/
 
-.conteudo{
+
+
+
+.conteudo-Sbr{
     display:flex;
 }
 
@@ -113,4 +112,96 @@ border-radius:20px;
     padding: 30px;
     color:rgb(0, 34, 64);
     max-width: 65%;
+}
+
+
+.Projetos{
+    width: auto;
+    height: auto;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-bottom: 20%;
+
+    border-radius:20px;
+    padding: 50px 5%;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    background-color:rgb(240, 255, 210);
+}
+
+
+.corpo {
+    display: flex;
+}
+.texto {
+    flex-direction: column;
+    flex: 1;
+}
+
+.chain {
+    width: auto;
+    height: auto;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top: 5%;
+
+    border-radius:20px;
+    padding: 50px 5%;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    background-color:rgb(163, 172, 146);
+}
+
+
+.chain img {
+    width: 200px;
+    height: auto;
+}
+
+.chain p{
+    margin-left: 5%;
+    padding: 30px;
+}
+
+.chain a{
+    text-decoration: none;
+    display: flex;
+    justify-content: flex-end;
+}
+
+
+/* ------------------------------------ */
+
+.Exemplo1 {
+    width: auto;
+    height: auto;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top: 20%;
+
+    border-radius:20px;
+    padding: 50px 5%;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    background-color:rgb(163, 172, 146);
+}
+
+
+.Exemplo1 img {
+    width: 200px;
+    height: auto;
+}
+
+.Exemplo1 p{
+    margin-left: 5%;
+    padding: 30px;
+}
+
+.Exemplo1 a{
+    text-decoration: none;
+    display: flex;
+    justify-content: flex-end;
 }
