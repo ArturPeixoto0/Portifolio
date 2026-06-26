@@ -5,7 +5,14 @@
 
 }
 
+header {
+    position: relative;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
 
+    background-color: rgb(0, 0, 49);
+}
 
 body {
     background-color:  rgb(0, 0, 49);;
@@ -78,7 +85,7 @@ header .btn-contato button:hover {
     clip-path: circle(50%);
 }
 
-.Sobre-Mim{
+#Sobre-Mim{
 width: auto;
 height: auto;
 margin-left: 10%;
@@ -115,7 +122,7 @@ background-color:rgb(240, 255, 210);
 }
 
 
-.Projetos{
+#Projetos{
     width: auto;
     height: auto;
     margin-left: 10%;
