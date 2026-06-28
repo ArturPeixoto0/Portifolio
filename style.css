@@ -1,0 +1,255 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+    font-family: "Merriweather", serif;
+}
+
+header {
+    position: sticky;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
+
+    background-color: rgb(0, 0, 49);
+}
+
+body {
+    background-color:  rgb(0, 0, 49);;
+    min-height: 100vh;
+}
+
+.interface {
+    padding: 20px;
+    max-width: 1280px;
+    width: 100%;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.menu-desktop ul { /*precisamos adicionar o ul para que alteremos a lista*/
+    list-style-type: none;
+
+    padding: 0;
+    border: 20px solid rgb(240, 255, 210);
+    border-radius: 40px;
+    display: flex;
+    align-items: center;
+    
+    gap: 60px;
+    background-color: rgb(240, 255, 210);
+
+        
+}   
+
+
+
+header a{
+    color: rgb(122, 122, 122);
+    text-decoration: none;
+    cursor: pointer;
+    display: inline-block; /*assim conseguimos meer no tamanho do escrito*/
+}
+
+header a:hover {
+   color: black;
+   transform: scale(1.1);
+    transition: .2s;
+}
+
+#Sobre-Mim{
+width: auto;
+height: auto;
+margin-left: 10%;
+margin-right: 10%;
+margin-bottom: 20%;
+
+border-radius:20px;
+padding: 50px 5%;
+display: flex;
+flex-direction: column;
+gap: 20px;
+background-color:rgb(240, 255, 210);
+
+scroll-margin-top: 150px;
+}
+
+
+
+
+
+.conteudo-Sbr{
+    display:flex;
+}
+
+
+.foto img {
+    border-radius: 100px;
+    width: 200px;
+    height: auto;
+}
+.Apresentação{
+    margin-left: 5%;
+    padding: 30px;
+    color:rgb(0, 0, 49);
+    max-width: 65%;
+}
+
+
+#Projetos{
+    width: auto;
+    height: auto;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-bottom: 10%;
+
+    border-radius:20px;
+    padding: 50px 5%;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    background-color:rgb(240, 255, 210);
+
+    scroll-margin-top: 150px;
+}
+
+#Projetos h1{
+    color:rgb(0, 0, 49)
+}
+
+.corpo {
+    display: flex;
+}
+.texto {
+    flex-direction: column;
+    flex: 1;
+}
+
+.chain {
+    width: auto;
+    height: auto;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top: 5%;
+
+    border-radius:20px;
+    padding: 50px 5%;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    background-color:rgb(163, 172, 146);
+}
+
+
+.chain img {
+    width: 200px;
+    height: auto;
+}
+
+.chain p{
+    margin-left: 5%;
+    padding: 30px;
+}
+
+.chain a{
+    text-decoration: none;
+    display: flex;
+    justify-content: flex-end;
+}
+
+
+/* ------------------------------------ */
+
+.Exemplo1 {
+    width: auto;
+    height: auto;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top: 20%;
+
+    border-radius:20px;
+    padding: 50px 5%;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    background-color:rgb(163, 172, 146);
+}
+
+
+.Exemplo1 img {
+    width: 200px;
+    height: auto;
+}
+
+.Exemplo1 p{
+    margin-left: 5%;
+    padding: 30px;
+}
+
+.Exemplo1 a{
+    text-decoration: none;
+    display: flex;
+    justify-content: flex-end;
+}
+
+/* ------------------------------------ */
+
+.Exemplo2 {
+    width: auto;
+    height: auto;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top: 20%;
+
+    border-radius:20px;
+    padding: 50px 5%;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    background-color:rgb(163, 172, 146);
+}
+
+
+.Exemplo2 img {
+    width: 200px;
+    height: auto;
+}
+
+.Exemplo2 p{
+    margin-left: 5%;
+    padding: 30px;
+}
+
+.Exemplo2 a{
+    text-decoration: none;
+    display: flex;
+    justify-content: flex-end;
+}
+
+#Contato {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+    color:rgb(0, 0, 49);
+
+    background-color:rgb(240, 255, 210);
+    border-radius: 40px;
+    padding: 20px;
+    
+
+    margin-right: 35%;
+    margin-left: 35%;
+    margin-bottom: 4%;
+}
+
+#Contato a{
+    text-decoration: none;
+    cursor: pointer;
+    color:rgb(0, 0, 49)
+}
